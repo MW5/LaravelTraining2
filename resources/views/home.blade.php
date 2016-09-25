@@ -17,7 +17,7 @@
             </button>
             <a class="navbar-brand" href="#">
                 <div id="logo-background-rotated">
-                    <img id='nav_logo_pic' alt="Brand" src="Images/PGElectric_logo.png">
+                    <img id='nav_logo_pic' alt="Brand" src="images/PGElectric_logo.png">
                 </div>
             </a>
           </div>
@@ -61,6 +61,49 @@
             </div>
         </div>
     </div>
-
+    @stop
+    @section('credo')
+    <div class="container-fluid thumbnail_container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/competence.png" alt="competence">
+                        <div class="caption">
+                            <h3>Competence</h3>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/reliability.png" alt="reliability">
+                        <div class="caption">
+                            <h3>Reliability</h3>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/honesty.png" alt="honesty">
+                        <div class="caption">
+                            <h3>Honesty</h3>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/prices.png" alt="prices">
+                        <div class="caption">
+                            <h3>Good prices</h3>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     @stop
 </html>

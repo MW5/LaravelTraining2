@@ -1,3 +1,4 @@
+/*nav*/
 #logo-background-rotated {
     background-color: #DDDFDF;
     transform: rotate(45deg);
@@ -24,33 +25,12 @@
         display:none;
     }
 }
-@media screen and (max-width: 760px) {
-    #logo-background-rotated {
-        display:block;
-        transform: rotate(0deg);
-        border: none;
-        height: 100%;
-    }
-    #nav_logo_pic {
-        display:block;
-        height: 100%;
-        transform: rotate(0deg);
-    }
-    #logo-background-rotated:hover {
-        border: none;
-    }
-    .navbar-brand,
-    li a {
-        display:block;
-    }
-    #carousel {
-        display: none;
-    }
-}
+
 
 .navbar-default {
     background-color: #DDDFDF;
     border: 2px solid black;
+    opacity: 0.9;
 }
 
 .navbar-brand,
@@ -73,6 +53,7 @@
     color: rgb(255,120,5);
 }
 
+/*carousel*/
 .carousel-caption {
     font-size: 50px;
     color: rgb(255,120,5);
@@ -137,5 +118,43 @@
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
               transform: translate3d(0, 0, 0);
+    }
+}
+
+.thumbnail_container {
+    padding: 5vh 0 5vh 0;
+    background-image: url('/images/th_bg_0.png');
+}
+.thumbnail {
+    background-color: #DDDFDF;
+    opacity: 0.9;
+}
+.thumbnail h3 {
+    color: rgb(255,120,5);
+}
+
+
+/*media*/
+@media screen and (max-width: 760px) {
+    #logo-background-rotated {
+        display:block;
+        transform: rotate(0deg);
+        border: none;
+        height: 100%;
+    }
+    #nav_logo_pic {
+        display:block;
+        height: 100%;
+        transform: rotate(0deg);
+    }
+    #logo-background-rotated:hover {
+        border: none;
+    }
+    .navbar-brand,
+    li a {
+        display:block;
+    }
+    #carousel {
+        display: none;
     }
 }
