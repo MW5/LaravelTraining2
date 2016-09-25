@@ -15,6 +15,7 @@
         @yield('nav')
         @yield('carousel')
         @yield('credo')
+        @yield('about')
     </body>
 </html>
 

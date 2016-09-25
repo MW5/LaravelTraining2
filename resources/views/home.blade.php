@@ -89,7 +89,10 @@
                         <img src="images/honesty.png" alt="honesty">
                         <div class="caption">
                             <h3>Honesty</h3>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud exercitation ullamco laboris</p>
                         </div>
                     </div>
                 </div>
@@ -98,12 +101,28 @@
                         <img src="images/prices.png" alt="prices">
                         <div class="caption">
                             <h3>Good prices</h3>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud exercitation ullamco laboris</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    @stop
+    @section('about')
+        <div class="container-fluid about_container">
+            <div class="container">
+                <img id="about_rounded_pic" src="images/face.jpeg" class="img-circle" alt="face">
+                <div class="text_container">
+                    <h2>dsds</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque
+                        ipsa quae ab illo inventore veritatis et quasi architecto </p>
+                </div>
+            </div>
+        </div>
     @stop
 </html>

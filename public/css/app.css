@@ -7,25 +7,10 @@
 #logo-background-rotated:hover {
     border: 2px solid rgb(255,120,5);
 }
-
 #nav_logo_pic {
     height: 140%;
     transform: rotate(-45deg);
 }
-
-@media screen and (max-width: 1110px) {
-    #logo-background-rotated {
-        display:none;
-    }
-    #nav_logo_pic {
-        display:none;
-    }
-    .navbar-brand,
-    li a {
-        display:none;
-    }
-}
-
 
 .navbar-default {
     background-color: #DDDFDF;
@@ -72,7 +57,6 @@
     top: 70%;
     right: -25%;
 }
-
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -121,6 +105,7 @@
     }
 }
 
+/*thumbnail*/
 .thumbnail_container {
     padding: 5vh 0 5vh 0;
     background-image: url('/images/th_bg_0.png');
@@ -133,6 +118,39 @@
     color: rgb(255,120,5);
 }
 
+/*about*/
+.about_container {
+    text-align: center;
+    padding: 5vh 0 5vh 0;
+    background-image: url('/images/about_bg.jpg');
+    max-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about_rounded_pic {
+    width: 22%;
+    border: 2px solid black;
+}
+.text_container {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+    background-color: #DDDFDF;
+    opacity: 0.9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+.text_container h2{
+    color: rgb(255,120,5);
+}
 
 /*media*/
 @media screen and (max-width: 760px) {
@@ -156,5 +174,18 @@
     }
     #carousel {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    #logo-background-rotated {
+        display:none;
+    }
+    #nav_logo_pic {
+        display:none;
+    }
+    .navbar-brand,
+    li a {
+        display:none;
     }
 }
