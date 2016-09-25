@@ -14,7 +14,6 @@
     <body>
         @yield('nav')
         @yield('carousel')
-        
     </body>
 </html>
 

@@ -16,7 +16,9 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <img id='nav_logo_pic' alt="Brand" src="Images/PGElectric_logo.png">
+                <div id="logo-background-rotated">
+                    <img id='nav_logo_pic' alt="Brand" src="Images/PGElectric_logo.png">
+                </div>
             </a>
           </div>
 
@@ -35,34 +37,30 @@
     @stop
     
     @section('carousel')
-    <div id="carousel" class="carousel slide" data-ride="carousel">
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="Images\carousel_0.jpeg" alt="Bulb">
-            <div class="carousel-caption">
-              <h3>Bulbs</h3>
-              <p>Some cool text about bulbs!</p>
+            <div class="item active">
+                <img src="images/carousel_0.jpeg" alt="bulb">
+                <div class="carousel-caption">
+                     TEXT
+                </div>
             </div>
-          </div>
-
-          <div class="item">
-            <img src="Images\carousel_1.jpeg" alt="Wires">
-            <div class="carousel-caption">
-              <h3>Wires</h3>
-              <p>Cool text about wires</p>
+            <div class="item">
+                <img src="images/carousel_1.jpeg" alt="wires">
+                <div class="carousel-caption">
+                    TEXT2
+                </div>
             </div>
-          </div>
-
-          <div class="item">
-            <img src="Images\carousel_2.jpeg" alt="Cables">
-            <div class="carousel-caption">
-              <h3>Cables</h3>
-              <p>Cables are awesome</p>
+            <div class="item">
+                <img src="images/carousel_2.jpeg" alt="cables">
+                <div class="carousel-caption">
+                    TEXT3
+                </div>
             </div>
-          </div>
-
         </div>
     </div>
+
     @stop
 </html>
