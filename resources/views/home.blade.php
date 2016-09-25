@@ -43,19 +43,19 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="images/carousel_0.jpeg" alt="bulb">
-                <div class="carousel-caption">
+                <div id="carousel_caption_0" class="carousel-caption">
                      TEXT
                 </div>
             </div>
             <div class="item">
                 <img src="images/carousel_1.jpeg" alt="wires">
-                <div class="carousel-caption">
+                <div id="carousel_caption_1" class="carousel-caption">
                     TEXT2
                 </div>
             </div>
             <div class="item">
                 <img src="images/carousel_2.jpeg" alt="cables">
-                <div class="carousel-caption">
+                <div id="carousel_caption_2" class="carousel-caption">
                     TEXT3
                 </div>
             </div>

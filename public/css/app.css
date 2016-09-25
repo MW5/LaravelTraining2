@@ -3,10 +3,49 @@
     transform: rotate(45deg);
     border: 2px solid black;
 }
+#logo-background-rotated:hover {
+    border: 2px solid rgb(255,120,5);
+}
 
 #nav_logo_pic {
     height: 140%;
     transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1110px) {
+    #logo-background-rotated {
+        display:none;
+    }
+    #nav_logo_pic {
+        display:none;
+    }
+    .navbar-brand,
+    li a {
+        display:none;
+    }
+}
+@media screen and (max-width: 760px) {
+    #logo-background-rotated {
+        display:block;
+        transform: rotate(0deg);
+        border: none;
+        height: 100%;
+    }
+    #nav_logo_pic {
+        display:block;
+        height: 100%;
+        transform: rotate(0deg);
+    }
+    #logo-background-rotated:hover {
+        border: none;
+    }
+    .navbar-brand,
+    li a {
+        display:block;
+    }
+    #carousel {
+        display: none;
+    }
 }
 
 .navbar-default {
@@ -27,16 +66,32 @@
 .navbar-nav li {
     padding-left: 5vw;
 }
-.nav .navbar-nav li a {
+.navbar-default .navbar-nav>li>a {
     color: black;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(255,120,5);
 }
 
 .carousel-caption {
-    position: absolute;
-    top: 50vh;
     font-size: 50px;
-    color: red;
+    color: rgb(255,120,5);
+    opacity: 0.8;
 }
+
+#carousel_caption_0{
+    position: absolute;
+    top: 30%;
+    left: -25%;
+}
+#carousel_caption_1{ 
+    top: 50%;
+}
+#carousel_caption_2{ 
+    top: 70%;
+    right: -25%;
+}
+
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -84,12 +139,3 @@
               transform: translate3d(0, 0, 0);
     }
 }
-
-/* just for demo purpose */
-    html,
-    body,
-    .carousel,
-    .carousel-inner,
-    .carousel-inner .item {
-      height: 100%;
-    }
