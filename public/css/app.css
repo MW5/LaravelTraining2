@@ -1,0 +1,18 @@
+#nav_logo_pic {
+    height: 140%;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    font-size: 30px;
+    line-height: 120px;
+    height: 120px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav li {
+    padding-left: 5vw;
+}
+
+
