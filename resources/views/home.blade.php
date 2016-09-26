@@ -117,7 +117,7 @@
             <div class="container">
                 <img id="about_introduction_rounded_pic" src="images/face.jpeg" class="img-circle" alt="face">
                 <div class="about_introduction_text_container">
-                    <h2>About_general</h2>
+                    <h2>About_introduction</h2>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantium, totam rem aperiam, eaque
                         ipsa quae ab illo inventore veritatis et quasi architecto </p>
@@ -126,17 +126,93 @@
         </div>
     @stop
     @section('about_pros')
-        <div class="container-fluid about_pros_container">
-            <div class="container">
-                <h1>Why our services?</h1>
-                <ul>
-                    <li>Pro one</li>
-                    <li>Pro two</li>
-                    <li>Pro three</li>
-                    <li>Pro four</li>
-                    <li>Pro five</li>
-                </ul>
-            </div>
+        <div class="container-fluid bg_fix_pros_offer">
+                <div class="container about_pros_container">
+                    <h1>Why our services?</h1>
+                    <ul>
+                        <li>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu</li>
+                        <li>orem ipsum dolor sit amet, consectetur adipiscing el</li>
+                        <li>orem ipsum dolor sit amet, consectetur adipiscing elit, seeiu</li>
+                        <li>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu</li>
+                        <li>orem ipsum dolor sit amet, consectetur adipiscing elit, sed d</li>
+                    </ul>
+                </div>
+    @stop
+    @section('offer')
+
+                <div class="container offer_heading_container">
+                    <h1>Our offer</h1>
+                </div>
+                <div class="container offer_thumbnails_container">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                </div>
+                                <img class="offer_thumbnail_pic" src="images/competence.png" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                </div>
+                                <img class="offer_thumbnail_pic" src="images/competence.png" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                </div>
+                                <img class="offer_thumbnail_pic" src="images/competence.png" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                </div>
+                                <img class="offer_thumbnail_pic" src="images/competence.png" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                </div>
+                                <img class="offer_thumbnail_pic" src="images/competence.png" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                </div>
+                                <img class="offer_thumbnail_pic" src="images/competence.png" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                </div>
+                                <img class="offer_thumbnail_pic" src="images/competence.png" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                </div>
+                                <img class="offer_thumbnail_pic" src="images/competence.png" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     @stop
 </html>

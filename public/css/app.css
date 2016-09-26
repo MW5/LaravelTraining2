@@ -151,22 +151,20 @@
     color: rgb(255,120,5);
 }
 
+/*fix to use one background pic for two sections*/
+.bg_fix_pros_offer {
+    background-image: url('/images/pattern_bg.png');
+}
 /*about pros*/
 .about_pros_container {
-    padding: 5vh 0 5vh 0;
-    background-image: url('/images/pattern_bg.png');
+    margin-top: 5vh;
     text-align: center;
-}
-.about_pros_container .container {
     padding: 1vh 0 2vh 0;
     background-color: #DDDFDF;
     opacity: 0.9;
     border: 1px solid #ddd;
     border-radius: 4px;
     vertical-align: middle;
-}
-.about_pros_container h1 {
-    color: rgb(255,120,5);
 }
 .about_pros_container h1 {
     color: rgb(255,120,5);
@@ -180,6 +178,41 @@
     margin: 3px;
     list-style-type: circle;
 }
+
+/*offer*/
+.offer_heading_container{
+    margin-top: 5vh;
+    position: relative;
+    right: 15%;
+    width: 30vw;
+    padding: 1vh 0 2vh 0;
+    background-color: #DDDFDF;
+    opacity: 0.9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+}
+.offer_heading_container h1 {
+    color: rgb(255,120,5);
+}
+.offer_thumbnails_container {
+    padding: 1vh 0 2vh 0;
+    opacity: 0.9;
+        text-align: center;
+}
+
+.offer_thumbnail_item{
+    background-color: #DDDFDF;
+    opacity: 0.9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.offer_thumbnail_pic {
+    width: 75%;
+    padding-bottom:1vh;
+}
+
 
 
 

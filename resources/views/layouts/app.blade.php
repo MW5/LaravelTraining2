@@ -17,6 +17,7 @@
         @yield('credo')
         @yield('about_introduction')
         @yield('about_pros')
+        @yield('offer')
     </body>
 </html>
 
