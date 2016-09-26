@@ -112,16 +112,31 @@
         </div>
     </div>
     @stop
-    @section('about')
-        <div class="container-fluid about_container">
+    @section('about_introduction')
+        <div class="container-fluid about_introduction_container">
             <div class="container">
-                <img id="about_rounded_pic" src="images/face.jpeg" class="img-circle" alt="face">
-                <div class="text_container">
-                    <h2>dsds</h2>
+                <img id="about_introduction_rounded_pic" src="images/face.jpeg" class="img-circle" alt="face">
+                <div class="about_introduction_text_container">
+                    <h2>About_general</h2>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantium, totam rem aperiam, eaque
                         ipsa quae ab illo inventore veritatis et quasi architecto </p>
                 </div>
+            </div>
+        </div>
+    @stop
+    @section('about_pros')
+        <div class="container-fluid about_pros_container">
+            <div class="container">
+                <img id="about_pros_pic" src="images/FILENAME">
+                <h1>Why our services?</h1>
+                <ul>
+                    <li>Pro one</li>
+                    <li>Pro two</li>
+                    <li>Pro three</li>
+                    <li>Pro four</li>
+                    <li>Pro five</li>
+                </ul>
             </div>
         </div>
     @stop

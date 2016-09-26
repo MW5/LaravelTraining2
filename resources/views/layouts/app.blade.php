@@ -15,7 +15,8 @@
         @yield('nav')
         @yield('carousel')
         @yield('credo')
-        @yield('about')
+        @yield('about_introduction')
+        @yield('about_pros')
     </body>
 </html>
 
