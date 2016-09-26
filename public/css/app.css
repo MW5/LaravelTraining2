@@ -108,7 +108,7 @@
 /*thumbnail*/
 .thumbnail_container {
     padding: 5vh 0 5vh 0;
-    background-image: url('/images/thumbnail_bg.png');
+    background-image: url('/images/pattern_bg.png');
 }
 .thumbnail {
     background-color: #DDDFDF;
@@ -123,7 +123,6 @@
     text-align: center;
     padding: 5vh 0 5vh 0;
     background-image: url('/images/about_bg.jpg');
-    /*max-height: 500px;*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,16 +153,26 @@
 
 /*about pros*/
 .about_pros_container {
-    background-color: #DDDFDF;
-}
-#about_pros_pic {
+    padding: 5vh 0 5vh 0;
+    background-image: url('/images/pattern_bg.png');
     text-align: center;
+}
+.about_pros_container .container {
+    padding: 1vh 0 2vh 0;
+    background-color: #DDDFDF;
+    opacity: 0.9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
 }
 .about_pros_container h1 {
-    text-align: center;
+    color: rgb(255,120,5);
+}
+.about_pros_container h1 {
     color: rgb(255,120,5);
 }
 .about_pros_container ul {
+    text-align: left;
     font-size: 20px;
     padding-left: 10%;
 }

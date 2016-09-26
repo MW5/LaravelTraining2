@@ -128,7 +128,6 @@
     @section('about_pros')
         <div class="container-fluid about_pros_container">
             <div class="container">
-                <img id="about_pros_pic" src="images/FILENAME">
                 <h1>Why our services?</h1>
                 <ul>
                     <li>Pro one</li>
