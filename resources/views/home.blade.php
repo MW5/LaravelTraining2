@@ -215,38 +215,80 @@
         </div>
     @stop
     @section('gallery')
-    <h1>GALLERY LATER bg gradient from the top color (1f1b20) to black</h1>
+    <h1>ENTER GALLERY BUTTON bg gradient from the top color (1f1b20) to black</h1>
     @stop
     @section('address')
-    <div class="container-fluid address_container">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-4">
-                    <div class="address_item">
-                        <img id='address_logo_pic' alt="Brand" src="images/PGElectric_logo.png">
+        <div class="container-fluid address_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="address_item">
+                            <img id='address_logo_pic' alt="Brand" src="images/PGElectric_logo.png">
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <div class="address_item">
-                        <h2>Address</h2>
-                        <p>DOES HE</p>
-                        <p>WANT THE</p>
-                        <p>ADDRESS HERE?</p>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="address_item">
+                            <h2>Address</h2>
+                            <p>DOES HE</p>
+                            <p>WANT THE</p>
+                            <p>ADDRESS HERE? YES!</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <div class="address_item">
-                        <h2>Phone number</h2>
-                        <p>phone number</p>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="address_item">
+                            <h2>Phone number</h2>
+                            <p>phone number</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     @stop
     @section('map')
-    <h1>DOES HE WANT THE MAP?</h1>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.
+                289150303755!2d-0.11727678422743473!3d51.
+                452847379626206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                1!3m3!1m2!1s0x4876046acb989eb9%3A0xb14795907bdd2493!2s55+
+                Leander+Rd%2C+Brixton%2C+London+SW2+2NB%2C+Wielka+Brytania
+                !5e0!3m2!1spl!2spl!4v1475007940847" frameborder="0" allowfullscreen></iframe>
     @stop
     @section('contact')
+        <div class="container-fluid contact_container">
+            <div class="container">
+                <h2>Contact us</h2>
+                <form class="form">
+                    <div class="row">
+<!--                    <span class="contact_inline_form">-->
+                        <div class="col-xs-3 col-md-4">
+                            <div class="form-group">
+                                <label for="contact_name">Name</label>
+                                <input type="text" class="form-control" id="contact_name"
+                                       placeholder="Jane Doe" required>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4">
+                            <div class="form-group">
+                                <label for="contact_email">Email</label>
+                                <input type="email" class="form-control" id="contact_email"
+                                       placeholder="jane.doe@example.com">
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4">
+                            <div class="form-group">
+                                <label for="contact_phone">Phone number</label>
+                                <input type="tel" class="form-control" id="contact_phone"
+                                       placeholder="number" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact_message">Message</label>
+                        <textarea class="form-control" id="contact_message" rows="3"
+                                  placeholder="Please enter the text of your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Send</button>
+                </form>
+            </div>
+        </div>
     @stop
 </html>
