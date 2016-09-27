@@ -215,7 +215,9 @@
         </div>
     @stop
     @section('gallery')
-    <h1>ENTER GALLERY BUTTON bg gradient from the top color (1f1b20) to black</h1>
+    <div class="container-fluid gallery_link_container">
+        <a href="#" id="gallery_link"><h1>Click to enter the gallery</h1></a>
+    </div>
     @stop
     @section('address')
         <div class="container-fluid address_container">
@@ -262,7 +264,7 @@
                         <div class="col-xs-3 col-md-4">
                             <div class="form-group">
                                 <label for="contact_name">Name</label>
-                                <input type="text" class="form-control" id="contact_name"
+                                <input type="text" class="form-control contact_input" id="contact_name"
                                        placeholder="Jane Doe" required>
                             </div>
                         </div>
@@ -290,5 +292,8 @@
                 </form>
             </div>
         </div>
+    @stop
+    @section('footer')
+    <h1>ADD FOOTER!</h1>
     @stop
 </html>

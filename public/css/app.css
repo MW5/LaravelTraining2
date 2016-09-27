@@ -3,6 +3,7 @@
     background-color: #DDDFDF;
     transform: rotate(45deg);
     border: 2px solid black;
+    transition:.1s;
 }
 #logo-background-rotated:hover {
     border: 2px solid rgb(255,120,5);
@@ -33,6 +34,7 @@
 }
 .navbar-default .navbar-nav>li>a {
     color: black;
+    transition:.1s;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: rgb(255,120,5);
@@ -207,7 +209,27 @@
     padding-bottom:1vh;
 }
 /*gallery*/
-/*IN PROGRESS*/
+.gallery_link_container {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+#gallery_link {
+    text-decoration: none;
+    color: rgb(255,120,5);
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 4vh 0 4vh 0;
+    background-color: #DDDFDF;
+    opacity: 0.9;
+    vertical-align: middle;
+    transition:.3s;
+}
+#gallery_link:hover {
+    color: black;
+    background-color: rgb(255,120,5);
+}
 
 /*address*/
 .address_container {
@@ -254,16 +276,10 @@
 .contact_container .container h2 {
     color: rgb(255,120,5);
 }
-/*.contact_inline_form .form-group {
-    display: inline;
-
+.contact_container input:focus, .contact_container textarea:focus {
+    box-shadow: 0 0 5px rgb(255,120,5);
+    border: 1px solid rgb(255,120,5);
 }
-.contact_inline_form .form-group input {
-    display: inline;
-    width:20%;
-}*/
-
-
 
 /*media*/
 @media screen and (max-width: 760px) {
