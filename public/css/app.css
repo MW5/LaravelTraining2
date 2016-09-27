@@ -199,18 +199,35 @@
 .offer_thumbnails_container {
     padding: 1vh 0 2vh 0;
     opacity: 0.9;
-        text-align: center;
+    text-align: center;
 }
 
-.offer_thumbnail_item{
+.offer_thumbnail_pic {
+    width: 75%;
+    padding-bottom:1vh;
+}
+/*gallery*/
+/*IN PROGRESS*/
+
+/*address*/
+.address_container {
+    background-color: black;
+}
+.address_item {
+    margin-top: 2vh;
+    padding: 1vh 0 2vh 0;
     background-color: #DDDFDF;
     opacity: 0.9;
     border: 1px solid #ddd;
     border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
 }
-.offer_thumbnail_pic {
-    width: 75%;
-    padding-bottom:1vh;
+#address_logo_pic {
+    height:200px;
+}
+.address_item h2 {
+    color: rgb(255,120,5);
 }
 
 
@@ -218,6 +235,9 @@
 
 /*media*/
 @media screen and (max-width: 760px) {
+    .bg_fix_pros_offer {
+        background: linear-gradient(#4f4e4e,#1f1b20);
+    }
     #logo-background-rotated {
         display:block;
         transform: rotate(0deg);
@@ -242,6 +262,9 @@
 }
 
 @media screen and (max-width: 1110px) {
+    .bg_fix_pros_offer {
+        background: linear-gradient(#4f4e4e,#1f1b20);
+    }
     #logo-background-rotated {
         display:none;
     }

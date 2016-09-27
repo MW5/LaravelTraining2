@@ -18,6 +18,10 @@
         @yield('about_introduction')
         @yield('about_pros')
         @yield('offer')
+        @yield('gallery')
+        @yield('address')
+        @yield('map')
+        @yield('contact')
     </body>
 </html>
 
